@@ -1,62 +1,19 @@
-# 🏔️ Hills to Heights — Project README
+# Hills to Heights
 
-## 1. Prerequisites
+## Development Practices
 
-## 2. 🏗️ Project Overview
-- **Description:** Short summary of what the project does and who it’s for.  
-- **Purpose:** Explain the intent or value of this project.  
-- **Tech Overview:** Briefly mention main technologies used.
-> Example: “Hills to Heights is a storytelling and engagement platform showcasing ColoredCow’s culture, projects, and learning movement — built using Next.js and Node.js.”
+Our workflow ensures every change is developed locally, reviewed in a shared environment, and released to production in a controlled manner.
 
----
+### Environment Flow
 
-## 3. 🎯 Objectives / Goals
-- Primary goals of this project.  
-- How it connects to larger organization or initiative.  
-- Key measurable outcomes or success metrics.
-> Example: “Bridge the gap between students and real-world innovation through stories and interactive challenges.”
+| Environment | Purpose | Source Branch | Hosted On |
+|--------------|----------|----------------|------------|
+| **Local (Developer Machines)** | Active feature development and testing | `feature/*` | Developer’s system (macOS / Windows) |
+| **UAT (Staging)** | Internal QA and client demos | `develop` | AWS EC2 (Staging Server) |
+| **Production** | Public live site for end users | `main` | AWS EC2 (Production Server) |
 
----
-
-## 4. ⚙️ Tech Stack & Architecture
-- **Frontend:**  
-- **Backend:**  
-- **Database:**  
-- **Hosting / Infra:**  
-- **Integrations / APIs:**  
-- **Architecture Diagram:** *(Add link or image if available)*  
-
----
-
-## 5. 🚀 Setup & Installation
-1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
-
-2. **Navigate into the folder:**
-   ```bash
-   cd project-folder
-
-3. **Install dependencies:**
-   ```bash
-   npm install
-
-4. **Run the development server:**
-
-5. **Add Environment Variables:**
-
----
-
-## 6. 🧪 Testing Instructions
-
-## 7. 🔐 Environment Variables
-
-## 8. 🧠 Project Guidelines
-
-## 9. 📄 Documentation Links
-
-
-
-
-
-
+#### Flow Summary
+1. Developers work locally and push to feature branches.  
+2. Once ready, code is merged into `develop`, which is deployed to UAT.  
+3. After review and QA, stable code is merged to `main` and deployed to production.  
+4. Deployments are manual for now, but CI/CD automation (via GitHub Actions) will follow.
