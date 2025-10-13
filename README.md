@@ -1,7 +1,7 @@
 # 🏔️ Hills to Heights
 
 ## Documentation
-* [Installation](https://github.com/ColoredCow/hills-to-heights/blob/main/docs/installation.md)
+* * [Installation](./docs/installation.md)
 * Deployment
 
 ## Author
