@@ -1,7 +1,7 @@
 # 🏔️ Hills to Heights
 
 ## Documentation
-* * [Installation](./docs/installation.md)
+* [Installation](./docs/installation.md)
 * Deployment
 
 ## Author
