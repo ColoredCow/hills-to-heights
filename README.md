@@ -1,4 +1,4 @@
-# 🏔️ Hills to Heights — Project README
+# 🏔️ Hills to Heights
 
 ## Documentation
 * [Installation](https://github.com/ColoredCow/hills-to-heights/blob/main/docs/installation.md)
