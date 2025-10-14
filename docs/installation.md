@@ -36,11 +36,22 @@ cd hills-to-heights
 
 ## Step 2: Set Up Database
 
-Download the database dump from here: [LINK](https://drive.google.com/drive/folders/1alrJ-lCNUXfRPUvTn_unvel4N6mcHQQR)
+1. **Create an empty database**  
+   - Database name: `hills_to_heights_db`  
+   - Username: `root`  
+   - Password: (as per your local setup)  
+   - You can create the database using phpMyAdmin, MySQL CLI, or any database management tool.
 
-* Database name: `hills_to_heights_db`
-* Username: `root`
-* Password: (as per local setup)
+2. **Run WordPress installation**  
+   - Point WordPress to the empty database you created.  
+   - Configure the `wp-config.php` file with your database credentials:  
+     ```php
+     define('DB_NAME', 'hills_to_heights_db');
+     define('DB_USER', 'root');
+     define('DB_PASSWORD', '');
+     define('DB_HOST', 'localhost');
+     ```  
+   - Visit `http://localhost/your-site` to complete the WordPress setup wizard.
 
 ---
 
