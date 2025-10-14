@@ -1,0 +1,10 @@
+# WordPress sensitive files
+wp-config.php
+
+# Uploads
+wp-content/uploads/
+
+# Other common WordPress ignores
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
