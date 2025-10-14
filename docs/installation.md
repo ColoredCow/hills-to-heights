@@ -1,4 +1,4 @@
-# Hills-to-Heights Project: Local Setup Guide
+# Installation Guide
 
 This guide will help you set up the Hills-to-Heights WordPress project locally on your MacBook using Laravel Valet, starting from the GitHub repository.
 
