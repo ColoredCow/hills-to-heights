@@ -43,13 +43,30 @@ cd hills-to-heights
 
 ## Step 2: Set Up Database
 
-1. **Create an empty MySQL database**
+1. Start MySQL / Ensure it’s running
+
+**macOS (Valet / MAMP users):**
+   - Run the following in terminal:  
+  ```bash
+brew services start mysql   # if using Homebrew MySQL  
+```
+
+Or open MAMP and start servers from the GUI.
+
+**Windows (XAMPP/WAMP):**  
+   - Open XAMPP/WAMP Control Panel and start MySQL.
+
+> 💡 Tip: Make sure MySQL is running before creating the database. If MySQL isn’t running, WordPress won’t be able to connect.
+
+2. **Create an empty MySQL database**
    - Database name: `hills_to_heights_db`
    - Username: `root`
    - Password: (as per your local setup)
+   - Host: 127.0.0.1
+   - Port: 3306
    - You can create the database using phpMyAdmin, MySQL CLI, or any database management tool.
 
-2. **Configure WordPress**
+3. **Configure WordPress**
    - Copy the sample configuration and update the database settings:
       ```bash
       cp wp-config-sample.php wp-config.php
