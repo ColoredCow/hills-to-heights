@@ -4,19 +4,25 @@ language: "en-US"
 # Reviews Configuration
 # ================================
 reviews:
-  profile: "chill"                  # 'chill' = gentle feedback | 'assertive' = detailed feedback
-  high_level_summary: true          # adds a summary to PRs
-  auto_review:
-    enabled: true                   # automatically review new PRs
-    drafts: false                   # skip draft PRs for now
+  profile: "chill"                      # 'chill' = gentle feedback | 'assertive' = detailed feedback
+  high_level_summary: true              # adds a summary to PRs
 
-  path_filters:                     # restrict reviews to key WP folders
+  auto_review:
+    enabled: true                       # automatically review new PRs
+    drafts: false                       # skip draft PRs
+    auto_incremental_review: true       # ✅ review every new commit pushed to PR
+    base_branches:                      # ✅ restrict to specific base branches
+      - "main"
+      - "develop"
+    ignore_title_keywords: []           # ensure no PRs are skipped unintentionally
+
+  path_filters:                         # restrict reviews to key WP folders
     - "wp-content/themes/**"
     - "wp-content/plugins/**"
     - "!node_modules/**"
     - "!vendor/**"
 
-  path_instructions:                # context-specific review guidance
+  path_instructions:                    # context-specific review guidance
     - path: "wp-content/**"
       instructions: "Ensure code follows the performance best practices defined in /coding-guidelines/performance.md."
 
@@ -24,11 +30,11 @@ reviews:
   # Tools (optional PHP checks)
   # ================================
   tools:
-    phpcs:                          # PHP CodeSniffer (style & standards)
+    phpcs:                              # PHP CodeSniffer (style & standards)
       enabled: true
-    phpstan:                        # PHP static analysis
+    phpstan:                            # PHP static analysis
       enabled: true
-    phpmd:                          # PHP Mess Detector
+    phpmd:                              # PHP Mess Detector
       enabled: true
 
 # ================================
@@ -41,4 +47,4 @@ knowledge_base:
       - "coding-guidelines/performance.md"
 
   learnings:
-    scope: "local"                  # keep learnings project-specific (recommended)
+    scope: "local"                      # keep learnings project-specific (recommended)
