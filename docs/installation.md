@@ -6,8 +6,7 @@ This guide will help you set up the Hills-to-Heights WordPress project locally o
 
 ## Prerequisites
 
-Before starting, make sure you have a local web server with **PHP**, **MySQL**, and **Apache** (or Nginx).
-You don’t need to install everything manually — use one of the quick setup tools below based on your system.
+Before starting, ensure you have a local web server with **PHP** 8.3, **MySQL** 8.0.43, and **Apache** 2.4.65 (or Nginx 1.29.2); you don’t need to install everything manually — use one of the quick setup tools below based on your system.
 
 ### For Windows
 Use [**XAMPP**](https://www.apachefriends.org/) or [**WAMP**](https://wampserver.aviatechno.net/) for a quick setup.
@@ -44,7 +43,7 @@ cd hills-to-heights
 
 ## Step 2: Set Up Database
 
-1. **Create an empty database**
+1. **Create an empty MySQL database**
    - Database name: `hills_to_heights_db`
    - Username: `root`
    - Password: (as per your local setup)
@@ -61,7 +60,7 @@ cd hills-to-heights
      define('DB_NAME', 'hills_to_heights_db');
      define('DB_USER', 'root');
      define('DB_PASSWORD', '');
-     define('DB_HOST', 'localhost');
+     define('DB_HOST', '127.0.0.1');
      ```
 
 ---
