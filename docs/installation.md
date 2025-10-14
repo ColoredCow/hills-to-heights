@@ -6,7 +6,7 @@ This guide will help you set up the Hills-to-Heights WordPress project locally o
 
 ## Prerequisites
 
-Before starting, ensure you have a local web server with **PHP** 8.3.21, **MySQL** 8.4, and **Apache** 2.4.65 (or Nginx 1.29.2); you don’t need to install everything manually — use one of the quick setup tools below based on your system.
+Before starting, ensure you have a local web server with **PHP** 8.3, **MySQL** 8.0.43, and **Apache** 2.4.65 (or Nginx 1.29.2); you don’t need to install everything manually — use one of the quick setup tools below based on your system.
 
 ### For Windows
 Use [**XAMPP**](https://www.apachefriends.org/) or [**WAMP**](https://wampserver.aviatechno.net/) for a quick setup.
