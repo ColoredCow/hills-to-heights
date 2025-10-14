@@ -8,3 +8,7 @@ wp-content/uploads/
 wp-content/upgrade/
 wp-content/cache/
 wp-content/backups/
+
+
+# Miscellaneous
+.DS_Store
