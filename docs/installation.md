@@ -11,9 +11,6 @@ Make sure your system has the following installed:
 * **MySQL** (version 8 or higher recommended)
 * **Laravel Valet** (for local .test domains)
 * **Git**
-* **WP-CLI**
-    * [Installing via Homebrew](https://make.wordpress.org/cli/handbook/guides/installing/#installing-via-homebrew) would be the easiest option for macOS users.
-    * If not, all other installation options can be found in the same page.
 
 ---
 
@@ -26,6 +23,8 @@ cd /Users/Projects
 ```
 
 Clone the GitHub repository:
+> **Note:**
+> If you are using WAMP, LAMP, or XAMPP, it is recommended to clone this repository inside the htdocs folder. This ensures your local server can properly serve the project.
 
 ```bash
 git clone https://github.com/ColoredCow/hills-to-heights.git
@@ -74,27 +73,44 @@ define('DB_HOST', 'localhost');
 
 ---
 
-## Step 4: Start Local Server with Valet
+## Step 4: Start Local Server
 
-Navigate to the project folder and link it in Valet:
+Follow these steps to start your local development server depending on your operating system.
+
+---
+
+### Windows
+
+Windows users can follow these steps for virtual host creation:  
+
+- Detailed instructions: [Windows Virtual Host Setup](https://github.com/ColoredCow/resources/blob/master/virtualhost/WINDOWS.md)
+
+> **Note:** Make sure your WAMP/XAMPP server is running before accessing the site.
+
+---
+
+### macOS
+
+1. Navigate to the project folder:
 
 ```bash
 cd /Users/tarunjoshi/Projects/hills-to-heights
+```
+
+2. Link the project using Valet:
+```bash
 valet link hills-local
 ```
 
-Access the site in your browser:
-
-```
+3. Access the site in your browser:
+```bash
 http://hills-local.test
 ```
 
-Optional: Secure with HTTPS:
-
+4. Optional: Secure with HTTPS
 ```bash
 valet secure hills-local
 ```
-
-Access via: `https://hills-local.test`
+> Access the secured site via: https://hills-local.test
 
 ---
