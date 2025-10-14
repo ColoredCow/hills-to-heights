@@ -43,7 +43,7 @@ cd hills-to-heights
 
 ## Step 2: Set Up Database
 
-1. **Create an empty database**
+1. **Create an empty MySQL database**
    - Database name: `hills_to_heights_db`
    - Username: `root`
    - Password: (as per your local setup)
@@ -60,7 +60,7 @@ cd hills-to-heights
      define('DB_NAME', 'hills_to_heights_db');
      define('DB_USER', 'root');
      define('DB_PASSWORD', '');
-     define('DB_HOST', 'localhost');
+     define('DB_HOST', '127.0.0.1');
      ```
 
 ---
