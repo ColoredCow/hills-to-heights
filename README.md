@@ -1,62 +1,12 @@
-# 🏔️ Hills to Heights — Project README
+# Hills to Heights
+This repository contains all the source code, documentation, and deployment instructions for the Hills to Heights project. It includes setup guides, configuration files, and resources needed to run the platform locally or on a server, enabling developers to contribute, test, and maintain the project efficiently.
 
-## 1. Prerequisites
+## Documentation
+All documentation can be found in the [`docs`](/docs) directory of this repository. This includes:
 
-## 2. 🏗️ Project Overview
-- **Description:** Short summary of what the project does and who it’s for.  
-- **Purpose:** Explain the intent or value of this project.  
-- **Tech Overview:** Briefly mention main technologies used.
-> Example: “Hills to Heights is a storytelling and engagement platform showcasing ColoredCow’s culture, projects, and learning movement — built using Next.js and Node.js.”
+- How to install the project on a developer's machine
+- How to start contributing to the project
+- How to deploy the project
 
----
-
-## 3. 🎯 Objectives / Goals
-- Primary goals of this project.  
-- How it connects to larger organization or initiative.  
-- Key measurable outcomes or success metrics.
-> Example: “Bridge the gap between students and real-world innovation through stories and interactive challenges.”
-
----
-
-## 4. ⚙️ Tech Stack & Architecture
-- **Frontend:**  
-- **Backend:**  
-- **Database:**  
-- **Hosting / Infra:**  
-- **Integrations / APIs:**  
-- **Architecture Diagram:** *(Add link or image if available)*  
-
----
-
-## 5. 🚀 Setup & Installation
-1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
-
-2. **Navigate into the folder:**
-   ```bash
-   cd project-folder
-
-3. **Install dependencies:**
-   ```bash
-   npm install
-
-4. **Run the development server:**
-
-5. **Add Environment Variables:**
-
----
-
-## 6. 🧪 Testing Instructions
-
-## 7. 🔐 Environment Variables
-
-## 8. 🧠 Project Guidelines
-
-## 9. 📄 Documentation Links
-
-
-
-
-
-
+## Author
+Crafted by [ColoredCow](https://coloredcow.com/).
