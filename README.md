@@ -1,4 +1,3 @@
- Hills to Heights
 # HILLS TO HEIGHTS: THE REVOLUTION STARTS NOW
 For Students From the Hills 
 Who Dreams of Becoming 
@@ -12,7 +11,7 @@ The world doesn’t reward waiting. It rewards building.
 
 # Why Hills to Heights Exists
 We believe the next generation of world-class software engineers will rise from the hills.
-That’s why Hills to Heights was born—an initiative by ColoredCow to prove that talent in THDC-IHET Tehri, BTKIT Dwarahat, WIT Dehradun, Gurukul Kangri Haridwar, UPES Dehradun and beyond doesn’t need to leave home to create impact.
+That’s why Hills to Heights was born—an initiative by ColoredCow to prove that talent in **THDC-IHET Tehri**, **BTKIT Dwarahat**, **WIT Dehradun**, **Gurukul Kangri Haridwar**, **UPES Dehradun**, and beyond doesn’t need to leave home to create impact.
 We are not a Training center. We don’t charge fees.
 # We are building an ecosystem where students:
 Develop a problem-solver’s mindset beyond the syllabus.
